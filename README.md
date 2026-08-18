@@ -14,7 +14,4 @@ method, a catalog of real failures and what each one taught, and the writer
 architecture ("verbatim unless dirty") that makes it safe to modify a file
 whose format you only partly understand.
 
-Corrections are appended to the paper's Errata section with dates, never
-silently edited in.
-
 Version 1.0, August 2026. Contact: fact@rigelisawesome.com
