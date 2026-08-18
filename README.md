@@ -1,20 +1,9 @@
 # Gestir: Reading and Writing Maya's Binary Scene Format Without Maya
 
-A white paper on gestir, my dependency-free C++ reader and writer for Maya's
-binary `.mb` scene format. No Maya SDK, no Autodesk libraries, no license seat,
-no running DCC. Everything in it was derived by differential analysis of files
-Maya wrote, with Maya itself as the final say on whether a written file is valid.
+This is the paper. [PDF](gestir_whitepaper.pdf), or [markdown](gestir_whitepaper.md) if you prefer. The markdown is the canonical copy, the PDF renders from it.
 
-- **[Read the paper (PDF)](gestir_whitepaper.pdf)**
-- [Markdown source](gestir_whitepaper.md) (canonical; the PDF renders from it)
+Gestir is a C++ reader and writer for Maya's `.mb` files that doesn't use the Maya SDK and doesn't need Maya installed. Autodesk doesn't publish the format, so I worked it out by diffing controlled saves and letting Maya judge whether my written files were valid. The paper is the container layout as I observed it, how I derived it, the mistakes that cost me the most time, and the writer design that makes it reasonably safe to edit a file whose format you only partly understand.
 
-Covers: the `.mb` container as observed (64-bit IFF, big-endian, 4-byte aligned,
-and the alignment mistake that costs the most time), the reverse-engineering
-method, a catalog of real failures and what each one taught, and the writer
-architecture ("verbatim unless dirty") that makes it safe to modify a file
-whose format you only partly understand.
+Corrections get appended to the paper's errata section with dates rather than silently edited in.
 
-Corrections are appended to the paper's Errata section with dates, never
-silently edited in.
-
-Version 1.0, August 2026. Contact: fact@rigelisawesome.com
+v1.0, August 2026. fact@rigelisawesome.com
