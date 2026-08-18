@@ -2,6 +2,7 @@
 
 **Rigel Bowen**
 Version 1.0, August 2026
+DOI: [10.5281/zenodo.22002250](https://doi.org/10.5281/zenodo.22002250)
 Contact: fact@rigelisawesome.com
 
 ---
