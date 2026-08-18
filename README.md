@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1338772660.svg)](https://doi.org/10.5281/zenodo.22002250)
+
 # Gestir: Reading and Writing Maya's Binary Scene Format Without Maya
 
 A white paper on gestir, my dependency-free C++ reader and writer for Maya's
